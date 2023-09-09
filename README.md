@@ -1,17 +1,12 @@
 # COVAC-(Arm yourself Against Covid-19)
- 
-<br>
 
-This project is developed as an academic project for DBMS subject . It is Web Application based which controls and maintains the flow of vaccines.<br>
-<br>
-
+This project is a Covid Vaccine Management System, which manages all the patients, hospital and vaccine supply. Patient can view the no. of doses and vaccine type. Hospitals provide a particular brand of vaccine which are supplied by inventories and those are displayed in the hospital profile page. 
 
 ### Prerequisites
 Must haves:
 - MYSQL(Using XAMPP)
 - Node.js
 - Git Bash
-
 
 ## Getting Started
 Clone the repository in your local machine.
@@ -23,7 +18,6 @@ npm install
 
 Dependencies that are used for the project include:
 <br>
-
 ```
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -40,18 +34,11 @@ npm start
 ```
 <br>
 
-
-## ER Diagram
-<img src="refer/er.png">
-<br>
-
-
 ## The Concept Behind
 Our web app using mysql database manages all the patients, hospital and inventory data.<br>
-Inventory supplies vaccine to any specific hospitals. Each hospital provides a particular brand of vaccine (Say Covaxin or Covishield). Patients can register for hospitals in their area and the hospital can view all the patient requests for vaccine in their hospital on creating an account and logging in inside <b> COVAC<b>. This aids in easy management of data for the hospitals. All Inventory details are visible in the hospital profile page.Also hospitals can add data in the inventory page inside their profile that shows all inventory that are linked to that hospital and quantity of vaccines they have supplied to the respective hospital in the past. Hospitals can also handle information related to patients and add the dates when the patients received their first and second dose of the vaccine. All this data is instantly updated in the databse. The site is end to end validated.<br><br>
-We also provide a statistics page. Site viewers can view statistics of percentage of male, female and others category patients who have registered in our website. <br><br>
-<img src="refer/gender.png">
-<br><br>There are various other details that are shown through various mysql queries. Data like percentage of patients who have received different vaccines and the number of doses different patients have received. All this data helps the viewers to analyse and make conclusions.<br><br>
+Inventory supplies vaccine to any specific hospitals. Each hospital provides a particular brand of vaccine (Say Covaxin or Covishield). Patients can register for hospitals in their area and the hospital can view all the patient requests for vaccine in their hospital on creating an account and logging in inside <b> COVAC<b>. This aids in easy management of data for the hospitals. All Inventory details are visible in the hospital profile page.Also hospitals can add data in the inventory page inside their profile that shows all inventory that are linked to that hospital and quantity of vaccines they have supplied to the respective hospital in the past. Hospitals can also handle information related to patients and add the dates when the patients received their first and second dose of the vaccine. All this data is instantly updated in the databse. The site is end to end validated.
+
+There are various other details that are shown through various mysql queries. Data like percentage of patients who have received different vaccines and the number of doses different patients have received. All this data helps the viewers to analyse and make conclusions.<br><br>
 <img src="refer/details.png">
 <br><br> We have also shown the total hospitals that have registered in our website, along with the count and percentage of those which are private and government. This helps the viewers get to know their choices and helps in easy analysis of information.<br><br>
 <img src="refer/hospital.png">
